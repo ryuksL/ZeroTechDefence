@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 小炮塔 -->
+  <Hediff_LingTurret_Toxic.label>酸蚀</Hediff_LingTurret_Toxic.label>
+  <Hediff_LingTurret_Toxic.description>Debug.Text.</Hediff_LingTurret_Toxic.description>
+  <Hediff_LingTurret_Poison.label>腐毒</Hediff_LingTurret_Poison.label>
+  <Hediff_LingTurret_Poison.description>如果中毒者站着，就会不断被灼伤。</Hediff_LingTurret_Poison.description>
+  <!-- 大炮塔 -->
+  <Hediff_LingTurret_Crystal.label>刺伤</Hediff_LingTurret_Crystal.label>
+  <Hediff_LingTurret_Crystal.description>一处刺伤</Hediff_LingTurret_Crystal.description>
+  <Hediff_LingTurret_Crystal.comps.0.labelTendedWell>已包扎</Hediff_LingTurret_Crystal.comps.0.labelTendedWell>
+  <Hediff_LingTurret_Crystal.comps.0.labelTendedWellInner>已固定</Hediff_LingTurret_Crystal.comps.0.labelTendedWellInner>
+  <Hediff_LingTurret_Crystal.comps.0.labelSolidTendedWell>治疗</Hediff_LingTurret_Crystal.comps.0.labelSolidTendedWell>
+  <Hediff_LingTurret_Crystal.injuryProps.destroyedLabel>切下</Hediff_LingTurret_Crystal.injuryProps.destroyedLabel>
+  <Hediff_LingTurret_Crystal.injuryProps.destroyedOutLabel>切除</Hediff_LingTurret_Crystal.injuryProps.destroyedOutLabel>
+  <Hediff_LingTurret_Crystal.labelNoun>刺伤伤口</Hediff_LingTurret_Crystal.labelNoun>
+</LanguageData>

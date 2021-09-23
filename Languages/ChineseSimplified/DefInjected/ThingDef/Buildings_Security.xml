@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 双屏障 -->
+  <LingSandbagA.label>分解屏障</LingSandbagA.label>
+  <LingSandbagA.description>一款特制的屏障,生物可以穿过,但会将子弹和爆炸波拦截(对空抛弹无效).</LingSandbagA.description>
+  <LingSandbagA_Blueprint.label>分解屏障 (蓝图)</LingSandbagA_Blueprint.label>
+  <LingSandbagA_Frame.label>分解屏障 (建造中)</LingSandbagA_Frame.label>
+  <LingSandbagA_Frame.description>一款特制的屏障,生物可以穿过,但会将子弹和爆炸波拦截(对空抛弹无效).</LingSandbagA_Frame.description>
+  <LingSandbagB.label>细胞屏障</LingSandbagB.label>
+  <LingSandbagB.description>一款特制的屏障,可以阻挡生物但不能阻挡爆炸波和飞行物,另外不会提供任何掩体效果.</LingSandbagB.description>
+  <LingSandbagB_Blueprint.label>细胞屏障 (蓝图)</LingSandbagB_Blueprint.label>
+  <LingSandbagB_Frame.label>细胞屏障 (建造中)</LingSandbagB_Frame.label>
+  <LingSandbagB_Frame.description>一款特制的屏障,可以阻挡生物但不能阻挡爆炸波和飞行物,另外不会提供任何掩体效果.</LingSandbagB_Frame.description>
+  <!-- 小炮塔 -->
+  <LingTurret_Fire.label>火焰喷射器</LingTurret_Fire.label>
+  <LingTurret_Fire.description>一个搭载了火焰发射器的无人炮塔,子弹会在所经之处形成火海,由于其极大的攻击范围,其命中率已经不再重要</LingTurret_Fire.description>
+  <Bullet_LingTurret_Fire.label>汽油弹</Bullet_LingTurret_Fire.label>
+  <Gun_LingTurret_Fire.label>喷火器</Gun_LingTurret_Fire.label>
+  <Gun_LingTurret_Fire.description>一个火焰喷射器.</Gun_LingTurret_Fire.description>
+  <LingTurret_Ice.label>冰霜喷射器</LingTurret_Ice.label>
+  <LingTurret_Ice.description>一个搭载了液氮炮的无人机枪,会发射能够产生二次爆炸的液氮炮弹</LingTurret_Ice.description>
+  <Bullet_LingTurret_Ice.label>冰气弹</Bullet_LingTurret_Ice.label>
+  <Gun_LingTurret_Ice.label>冰霜喷射器</Gun_LingTurret_Ice.label>
+  <Gun_LingTurret_Ice.description>冰霜喷射器.</Gun_LingTurret_Ice.description>
+  <Building_LingTurretIce.label>冰柱</Building_LingTurretIce.label>
+  <Building_LingTurretIce.description>一块很好看的冰柱,但对于被困住的人来说就不见得了.</Building_LingTurretIce.description>
+  <LingTurret_Wind.label>风压制造器</LingTurret_Wind.label>
+  <LingTurret_Wind.description>一个用于定点制造风压的反应器,可以限制住一个敌人的行动,需要生物进行控制</LingTurret_Wind.description>
+  <Gun_LingTurret_Wind.label>风压制造器</Gun_LingTurret_Wind.label>
+  <Gun_LingTurret_Wind.description>一个风压制造器.</Gun_LingTurret_Wind.description>
+  <LingTurret_Lightning.label>电弧制造器</LingTurret_Lightning.label>
+  <LingTurret_Lightning.description>一个可以释放强大电极引发雷击的发生器</LingTurret_Lightning.description>
+  <Gun_LingTurret_Lightning.label>电弧制造器</Gun_LingTurret_Lightning.label>
+  <Gun_LingTurret_Lightning.description>一个电弧制造器.</Gun_LingTurret_Lightning.description>
+  <LingTurret_Toxic.label>酸液喷射器</LingTurret_Toxic.label>
+  <LingTurret_Toxic.description>一款发射神经毒素的无人机枪,击中会掉落敌人的装备</LingTurret_Toxic.description>
+  <Bullet_LingTurret_Toxic.label>酸液弹</Bullet_LingTurret_Toxic.label>
+  <Gun_LingTurret_Toxic.label>酸液喷射器</Gun_LingTurret_Toxic.label>
+  <Gun_LingTurret_Toxic.description>一个酸液喷射器.</Gun_LingTurret_Toxic.description>
+  <LingTurret_Poison.label>毒液喷射器</LingTurret_Poison.label>
+  <LingTurret_Poison.description>一款发射腐蚀毒素的无人机枪,会使被击中者持续受到伤害</LingTurret_Poison.description>
+  <Bullet_LingTurret_Poison.label>毒液弹</Bullet_LingTurret_Poison.label>
+  <Gun_LingTurret_Poison.label>毒液喷射器</Gun_LingTurret_Poison.label>
+  <Gun_LingTurret_Poison.description>一个毒液喷射器.</Gun_LingTurret_Poison.description>
+  <!-- 大炮塔 -->
+  <LingTurret_Crystal.label>棱晶炮塔</LingTurret_Crystal.label>
+  <LingTurret_Crystal.description>发射大量碎棱晶的炮塔,会使敌人高速失血休克</LingTurret_Crystal.description>
+  <Bullet_LingTurret_Crystal.label>碎棱晶</Bullet_LingTurret_Crystal.label>
+  <Gun_LingTurret_Crystal.label>棱晶喷射器</Gun_LingTurret_Crystal.label>
+  <Gun_LingTurret_Crystal.description>一个棱晶喷射器.</Gun_LingTurret_Crystal.description>
+  <LingTurret_Power.label>充能迫击炮</LingTurret_Power.label>
+  <LingTurret_Power.description>一款需要较长时间充能的重型能量武器,会交替的释放电荷弹和高爆弹对敌人进行打击,由于为了无限制的提高射速,精度有一定的下降</LingTurret_Power.description>
+  <Gun_LingTurret_Power.label>充能迫击炮</Gun_LingTurret_Power.label>
+  <Gun_LingTurret_Power.description>一个充能迫击炮.</Gun_LingTurret_Power.description>
+  <Bullet_LingTurret_Power.label>震慑弹</Bullet_LingTurret_Power.label>
+  <Bullet_LingTurret_PowerI.label>脉冲弹</Bullet_LingTurret_PowerI.label>
+  <Bullet_LingTurret_PowerII.label>高爆弹</Bullet_LingTurret_PowerII.label>
+  <LingTurretCore.label>炮塔核心</LingTurretCore.label>
+  <LingTurretCore.description>炮塔核心,为周围的零子炮塔提供保护.</LingTurretCore.description>
+  <!-- <ThingDef ParentName="LingBaseMortar">
+    <defName>LingTurret_SmokeMortar</defName>
+    <label>烟雾弹迫击炮</label>
+    <description>可以发射各式各样的奇妙迫击炮.(效果未实装)</description>
+    <designationCategory>Security</designationCategory>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>3600</WorkToBuild>
+      <Mass>30</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Security/TurretMortar_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<costStuffCount>50</costStuffCount>
+    <costList>
+	  <Steel>120</Steel>
+	  <ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+    <building>
+      <turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+	  <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <turretGunDef>Artillery_SmokeMortar</turretGunDef>
+      <turretTopGraphicPath>Things/Building/Security/TurretMortar_Top</turretTopGraphicPath>
+    </building>
+	<uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+	<uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Artillery_SmokeMortar</defName>
+    <label>mortar</label>
+    <description>Mortar launcher.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Shell_Firefoam</li>
+            <li>Shell_AntigrainWarhead</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>4.0</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>19.9</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef> -->
+  <LingTurret_CrazyMortar.label>零子迫击炮</LingTurret_CrazyMortar.label>
+  <LingTurret_CrazyMortar.description>一款体积极大的迫击炮,可以以极高的速度精确的将炮弹投掷到指定的位置,
+	遗憾的是,出于某种原因,你无法理解这款重炮的构造方式.</LingTurret_CrazyMortar.description>
+  <Artillery_CrazyMortar.label>mortar</Artillery_CrazyMortar.label>
+  <Artillery_CrazyMortar.description>Mortar launcher.</Artillery_CrazyMortar.description>
+  <!--<LingTurret_Fire_Blueprint.label>火焰喷射器 (蓝图)</LingTurret_Fire_Blueprint.label>-->
+  <!--<LingTurret_Fire_Blueprint_Install.label>火焰喷射器 (蓝图)</LingTurret_Fire_Blueprint_Install.label>-->
+  <!--<LingTurret_Fire_Frame.label>火焰喷射器 (建造中)</LingTurret_Fire_Frame.label>-->
+  <!--<LingTurret_Fire_Frame.description>一个搭载了火焰发射器的无人炮塔,子弹会在所经之处形成火海,由于其极大的攻击范围,其命中率已经不再重要</LingTurret_Fire_Frame.description>-->
+  <!--<LingTurret_Ice_Blueprint.label>冰霜喷射器 (蓝图)</LingTurret_Ice_Blueprint.label>-->
+  <!--<LingTurret_Ice_Blueprint_Install.label>冰霜喷射器 (蓝图)</LingTurret_Ice_Blueprint_Install.label>-->
+  <!--<LingTurret_Ice_Frame.label>冰霜喷射器 (建造中)</LingTurret_Ice_Frame.label>-->
+  <!--<LingTurret_Ice_Frame.description>一个搭载了液氮炮的无人机枪,会发射能够产生二次爆炸的液氮炮弹</LingTurret_Ice_Frame.description>-->
+  <!--<LingTurret_Wind_Blueprint.label>风压制造器 (蓝图)</LingTurret_Wind_Blueprint.label>-->
+  <!--<LingTurret_Wind_Blueprint_Install.label>风压制造器 (蓝图)</LingTurret_Wind_Blueprint_Install.label>-->
+  <!--<LingTurret_Wind_Frame.label>风压制造器 (建造中)</LingTurret_Wind_Frame.label>-->
+  <!--<LingTurret_Wind_Frame.description>一个用于定点制造风压的反应器,可以限制住一个敌人的行动,需要生物进行控制</LingTurret_Wind_Frame.description>-->
+  <!--<LingTurret_Lightning_Blueprint.label>电弧制造器 (蓝图)</LingTurret_Lightning_Blueprint.label>-->
+  <!--<LingTurret_Lightning_Blueprint_Install.label>电弧制造器 (蓝图)</LingTurret_Lightning_Blueprint_Install.label>-->
+  <!--<LingTurret_Lightning_Frame.label>电弧制造器 (建造中)</LingTurret_Lightning_Frame.label>-->
+  <!--<LingTurret_Lightning_Frame.description>一个可以释放强大电极引发雷击的发生器</LingTurret_Lightning_Frame.description>-->
+  <!--<LingTurret_Toxic_Blueprint.label>酸液喷射器 (蓝图)</LingTurret_Toxic_Blueprint.label>-->
+  <!--<LingTurret_Toxic_Blueprint_Install.label>酸液喷射器 (蓝图)</LingTurret_Toxic_Blueprint_Install.label>-->
+  <!--<LingTurret_Toxic_Frame.label>酸液喷射器 (建造中)</LingTurret_Toxic_Frame.label>-->
+  <!--<LingTurret_Toxic_Frame.description>一款发射神经毒素的无人机枪,击中会掉落敌人的装备</LingTurret_Toxic_Frame.description>-->
+  <!--<LingTurret_Poison_Blueprint.label>毒液喷射器 (蓝图)</LingTurret_Poison_Blueprint.label>-->
+  <!--<LingTurret_Poison_Blueprint_Install.label>毒液喷射器 (蓝图)</LingTurret_Poison_Blueprint_Install.label>-->
+  <!--<LingTurret_Poison_Frame.label>毒液喷射器 (建造中)</LingTurret_Poison_Frame.label>-->
+  <!--<LingTurret_Poison_Frame.description>一款发射腐蚀毒素的无人机枪,会使被击中者持续受到伤害</LingTurret_Poison_Frame.description>-->
+  <!--<LingTurret_Crystal_Blueprint.label>棱晶炮塔 (蓝图)</LingTurret_Crystal_Blueprint.label>-->
+  <!--<LingTurret_Crystal_Blueprint_Install.label>棱晶炮塔 (蓝图)</LingTurret_Crystal_Blueprint_Install.label>-->
+  <!--<LingTurret_Crystal_Frame.label>棱晶炮塔 (建造中)</LingTurret_Crystal_Frame.label>-->
+  <!--<LingTurret_Crystal_Frame.description>发射大量碎棱晶的炮塔,会使敌人高速失血休克</LingTurret_Crystal_Frame.description>-->
+  <!--<LingTurret_Power_Blueprint.label>充能迫击炮 (蓝图)</LingTurret_Power_Blueprint.label>-->
+  <!--<LingTurret_Power_Blueprint_Install.label>充能迫击炮 (蓝图)</LingTurret_Power_Blueprint_Install.label>-->
+  <!--<LingTurret_Power_Frame.label>充能迫击炮 (建造中)</LingTurret_Power_Frame.label>-->
+  <!--<LingTurret_Power_Frame.description>一款需要较长时间充能的重型能量武器,会交替的释放电荷弹和高爆弹对敌人进行打击,由于为了无限制的提高射速,精度有一定的下降</LingTurret_Power_Frame.description>-->
+  <!--<LingTurretCore_Blueprint.label>炮塔核心 (蓝图)</LingTurretCore_Blueprint.label>-->
+  <!--<LingTurretCore_Blueprint_Install.label>炮塔核心 (蓝图)</LingTurretCore_Blueprint_Install.label>-->
+  <!--<LingTurretCore_Frame.label>炮塔核心 (建造中)</LingTurretCore_Frame.label>-->
+  <!--<LingTurretCore_Frame.description>炮塔核心,为周围的零子炮塔提供保护.</LingTurretCore_Frame.description>-->
+  <!--<LingTurret_CrazyMortar_Blueprint_Install.label>零子迫击炮 (蓝图)</LingTurret_CrazyMortar_Blueprint_Install.label>-->
+  <!--<建造中_LingTurretIce.label>冰柱</建造中_LingTurretIce.label>-->
+  <!--<建造中_LingTurretIce.description>一块很好看的冰柱,但对于被困住的人来说就不见得了.</建造中_LingTurretIce.description>-->
+  <!-- <ThingDef ParentName="LingBaseMortar">
+    <defName>LingTurret_SmokeMortar</defName>
+    <label>烟雾弹迫击炮</label>
+    <description>可以发射各式各样的奇妙迫击炮.(效果未实装)</description>
+    <designationCategory>Security</designationCategory>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>3600</WorkToBuild>
+      <Mass>30</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>Things/建造中/Security/TurretMortar_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<costStuffCount>50</costStuffCount>
+    <costList>
+	  <Steel>120</Steel>
+	  <ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+    <建造中>
+      <turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+	  <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <turretGunDef>Artillery_SmokeMortar</turretGunDef>
+      <turretTopGraphicPath>Things/建造中/Security/TurretMortar_Top</turretTopGraphicPath>
+    </建造中>
+	<uiIconPath>Things/建造中/Security/TurretMortar_MenuIcon</uiIconPath>
+	<uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Artillery_SmokeMortar</defName>
+    <label>mortar</label>
+    <description>Mortar launcher.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <建造中>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Shell_Firefoam</li>
+            <li>Shell_AntigrainWarhead</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </建造中>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>4.0</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>19.9</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef> -->
+  <!--<LingTurret_Fire.comps.CompRefuelable.fuelLabel>剩余燃料量</LingTurret_Fire.comps.CompRefuelable.fuelLabel>-->
+  <!--<LingTurret_Fire.comps.CompRefuelable.fuelGizmoLabel>燃料余量</LingTurret_Fire.comps.CompRefuelable.fuelGizmoLabel>-->
+  <!--<LingTurret_Fire.comps.CompRefuelable.outOfFuelMessage>燃料不足</LingTurret_Fire.comps.CompRefuelable.outOfFuelMessage>-->
+  <!--<LingTurret_Toxic.comps.CompRefuelable.fuelLabel>剩余弹药量</LingTurret_Toxic.comps.CompRefuelable.fuelLabel>-->
+  <!--<LingTurret_Toxic.comps.CompRefuelable.fuelGizmoLabel>弹药余量</LingTurret_Toxic.comps.CompRefuelable.fuelGizmoLabel>-->
+  <!--<LingTurret_Toxic.comps.CompRefuelable.outOfFuelMessage>弹药不足</LingTurret_Toxic.comps.CompRefuelable.outOfFuelMessage>-->
+  <!--<LingTurret_Crystal.comps.CompRefuelable.fuelLabel>剩余弹药量</LingTurret_Crystal.comps.CompRefuelable.fuelLabel>-->
+  <!--<LingTurret_Crystal.comps.CompRefuelable.fuelGizmoLabel>弹药余量</LingTurret_Crystal.comps.CompRefuelable.fuelGizmoLabel>-->
+  <!--<LingTurret_Crystal.comps.CompRefuelable.outOfFuelMessage>弹药不足</LingTurret_Crystal.comps.CompRefuelable.outOfFuelMessage>-->
+</LanguageData>

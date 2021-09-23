@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>ZeroTech-Defence</name>
+  <author>LingLuo</author>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>LingLuo.ZeroTechDefence</packageId>
+  <description>零子科技-守御拓展包
+	我们不想伤害任何人,但也绝不会允许任何人破坏我们的家园
+	物品简介
+	浓缩毒气炮弹:爆炸后生成一大片高浓度毒雾,会在数小时左右散去
+	毒气地雷:使用浓缩毒气炮弹做成的简易陷阱,爆炸后释放一大片毒雾
+	静电地雷:爆炸后释放一道静电波,可以暂时使周围的生物失去行动能力并瘫痪电器
+	分解屏障:一款特殊的屏障,生物可以穿过,但会拦截近地投射物和冲击波
+	细胞屏障:一款特殊的屏障,能够阻挡生物但投射物和冲击波可以穿过
+	火焰喷射器:一款能够形成火焰封锁网的火焰发射器,在易燃物多的地方使用容易失控
+	冰霜喷射器:一款发射液氮炮的无人炮塔,发射的液氮炮弹会造成二次爆炸
+	风压制造器:一款能够精确产生强大风压的控制器,需要有人来进行操控
+	电弧聚集器:一款能够精确引发雷击的发生器,需要一定的电力进行共鸣
+	酸液发射器:一款非致命的无人机枪,发射的神经毒素引发的痉挛会导致装备脱落
+	毒液喷射器:一款发射腐蚀毒素的无人机枪,如果中毒者保持站立则会持续被灼伤
+	棱晶炮塔:一款发射缓速棱晶炮弹的无人机枪,打击范围极广,被击中者会高速失血
+	充能迫击炮:一款需要较长时间充能的武器,每次打击会依次释放震撼弹,EMP弹,燃烧弹
+	零子迫击炮:一款体积较大迫击炮,可以精确,高速的进行投射,唯一的遗憾是无法进行远距离打击
+	炮塔核心:一款炮塔辅助装置,可以将周围的零子炮塔的耐久大幅度增加以避免损坏
+	天降巨炮:一座零子迫击炮降落在了你的基地,你会怎么使用它呢?
+	</description>
+  <modDependencies>
+    <li>
+      <packageId>LingLuo.ZeroTechCore</packageId>
+      <displayName>ZeroTechCore</displayName>
+      <downloadUrl>https://www.baidu.com</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>LingLuo.ZeroTechCore</li>
+  </loadAfter>
+</ModMetaData>

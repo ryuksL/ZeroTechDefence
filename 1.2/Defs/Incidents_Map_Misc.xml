@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>LingTurret_CrazyMortarCrash</defName>
+    <label>a Mortar Crash</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>LingGame.IncidentWorker_LingMortarCrash</workerClass>
+    <baseChance>0.6</baseChance>
+    <minRefireDays>30</minRefireDays>
+    <earliestDay>60</earliestDay>
+    <letterLabel>巨炮天降</letterLabel>
+    <letterText>砰!一门迫击炮降落在了你的基地,你可以占有并使用它,或者将其拆解成资源.</letterText>
+    <letterDef>PositiveEvent</letterDef>
+  </IncidentDef>
+</Defs>

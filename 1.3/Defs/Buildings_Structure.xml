@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--<ThingDef ParentName="Wall">
+    <defName>ZeroTechWall</defName>
+    <label>electronic wall</label>
+    <description>A wall controlled by electricity can defend against any attack.</description>
+    <thingClass>LingGame.ElectronicWall</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+    </graphicData>
+    <uiIconPath>Things/Building/Linked/ZeroTechWall_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>135</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <costStuffCount>10</costStuffCount>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <researchPrerequisites><li>ZeroTechDenfence</li></researchPrerequisites>
+    <holdsRoof>true</holdsRoof>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <comps>
+	  <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+  </ThingDef>-->
+</Defs>

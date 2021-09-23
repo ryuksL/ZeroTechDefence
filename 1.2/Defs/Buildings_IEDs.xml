@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="LingGasAQXMakeableShellBase" ParentName="MakeableShellBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/Resource/Shell/Shell_EMP</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>Smoke</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <costList>
+      <Steel>5</Steel>
+      <MedicineUltratech>1</MedicineUltratech>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+  </ThingDef>
+  <ThingDef Name="LingGasAQXBaseBullet" ParentName="BaseBullet" Abstract="True">
+    <graphicData>
+      <texPath>Things/Projectile/ShellEMP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Smoke</damageDef>
+      <speed>41</speed>
+      <explosionRadius>5.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="LingGasAQXBaseGas" ParentName="BaseGas" Abstract="True">
+    <thingClass>LingGame.LingPoisonGas</thingClass>
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.2</drawSize>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>80</min>
+        <max>90</max>
+      </expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.5</accuracyPenalty>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  <ThingDef ParentName="LingGasAQXMakeableShellBase">
+    <defName>Shell_LingGas_ToxicBuildup</defName>
+    <label>ToxicBuildup shell</label>
+    <description>.</description>
+    <projectileWhenLoaded>Bullet_LingGas_ToxicBuildup</projectileWhenLoaded>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>Smoke</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>LingGas_ToxicBuildup</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <preExplosionSpawnThingCount>1</preExplosionSpawnThingCount>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="LingGasAQXBaseBullet">
+    <defName>Bullet_LingGas_ToxicBuildup</defName>
+    <label>ToxicBuildup shell</label>
+    <projectile>
+      <preExplosionSpawnThingDef>LingGas_ToxicBuildup</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>1</preExplosionSpawnChance>
+      <preExplosionSpawnThingCount>1</preExplosionSpawnThingCount>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="LingGasAQXBaseGas">
+    <defName>LingGas_ToxicBuildup</defName>
+    <label>浓缩毒烟</label>
+    <graphicData>
+      <color>(0.7,1.0,0.7,0.9)</color>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="TrapIEDBase">
+    <defName>LingTrapIED_HighStun</defName>
+    <label>静电炸弹</label>
+    <description>一款可以释放静电波的部署炸弹,可以使范围内的生物暂时失去活动能力并使电器瘫痪.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/IEDHighExplosive</texPath>
+    </graphicData>
+    <costList>
+      <Shell_HighExplosive>1</Shell_HighExplosive>
+    </costList>
+    <comps>
+      <li Class="LingGame.LingCompProerties_StartWick" />
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>7</explosiveRadius>
+        <explosiveDamageType>Stun</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>
+          <min>1</min>
+          <max>5</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ZeroTechDenfence</li>
+    </researchPrerequisites>
+    <placeWorkers Inherit="false" />
+    <specialDisplayRadius>7</specialDisplayRadius>
+  </ThingDef>
+  <ThingDef ParentName="TrapIEDBase">
+    <defName>LingTrapIED_Toxic</defName>
+    <label>毒雾炸弹</label>
+    <description>一枚携带了高浓缩毒药的炸弹,可以在触发后制造一大片毒云,使范围内的任何高速生物中毒.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/IEDHighExplosive</texPath>
+    </graphicData>
+    <costList>
+      <Shell_LingGas_ToxicBuildup>1</Shell_LingGas_ToxicBuildup>
+    </costList>
+    <comps>
+      <li Class="LingGame.LingCompProerties_StartWick" />
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>Smoke</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>LingGas_ToxicBuildup</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <preExplosionSpawnThingCount>1</preExplosionSpawnThingCount>
+        <wickTicks>
+          <min>1</min>
+          <max>5</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ZeroTechDenfence</li>
+    </researchPrerequisites>
+    <placeWorkers Inherit="false" />
+    <specialDisplayRadius>5.9</specialDisplayRadius>
+  </ThingDef>
+</Defs>

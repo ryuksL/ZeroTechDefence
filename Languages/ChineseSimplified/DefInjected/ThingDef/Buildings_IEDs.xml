@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shell_LingGas_ToxicBuildup.label>毒雾炮弹</Shell_LingGas_ToxicBuildup.label>
+  <Shell_LingGas_ToxicBuildup.description>一枚携带了高浓缩毒药的炸弹,可以在触发后制造一大片毒云,使范围内的任何高速生物中毒.</Shell_LingGas_ToxicBuildup.description>
+  <Bullet_LingGas_ToxicBuildup.label>毒雾炮弹</Bullet_LingGas_ToxicBuildup.label>
+  <LingGas_ToxicBuildup.label>浓缩毒烟</LingGas_ToxicBuildup.label>
+  <LingTrapIED_HighStun.label>静电炸弹</LingTrapIED_HighStun.label>
+  <LingTrapIED_HighStun.description>一款可以释放静电波的部署炸弹,可以使范围内的生物暂时失去活动能力并使电器瘫痪.</LingTrapIED_HighStun.description>
+  <LingTrapIED_Toxic.label>毒雾炸弹</LingTrapIED_Toxic.label>
+  <LingTrapIED_Toxic.description>一枚携带了高浓缩毒药的炸弹,可以在触发后制造一大片毒云,使范围内的任何高速生物中毒.</LingTrapIED_Toxic.description>
+  <!--<LingTrapIED_HighStun_Blueprint.label>静电炸弹 (蓝图)</LingTrapIED_HighStun_Blueprint.label>-->
+  <!--<LingTrapIED_HighStun_Blueprint_Install.label>静电炸弹 (蓝图)</LingTrapIED_HighStun_Blueprint_Install.label>-->
+  <!--<LingTrapIED_HighStun_Frame.label>静电炸弹 (建造中)</LingTrapIED_HighStun_Frame.label>-->
+  <!--<LingTrapIED_HighStun_Frame.description>一款可以释放静电波的部署炸弹,可以使范围内的生物暂时失去活动能力并使电器瘫痪.</LingTrapIED_HighStun_Frame.description>-->
+  <!--<LingTrapIED_Toxic_Blueprint.label>毒雾炸弹 (蓝图)</LingTrapIED_Toxic_Blueprint.label>-->
+  <!--<LingTrapIED_Toxic_Blueprint_Install.label>毒雾炸弹 (蓝图)</LingTrapIED_Toxic_Blueprint_Install.label>-->
+  <!--<LingTrapIED_Toxic_Frame.label>毒雾炸弹 (建造中)</LingTrapIED_Toxic_Frame.label>-->
+  <!--<LingTrapIED_Toxic_Frame.description>一枚携带了高浓缩毒药的炸弹,可以在触发后制造一大片毒云,使范围内的任何高速生物中毒.</LingTrapIED_Toxic_Frame.description>-->
+  <!--[Duplicated] <LingGas_ToxicBuildup.label>浓缩毒烟</LingGas_ToxicBuildup.label>-->
+</LanguageData>
