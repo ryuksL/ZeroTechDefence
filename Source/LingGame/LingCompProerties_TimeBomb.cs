@@ -1,14 +1,13 @@
 using Verse;
 
-namespace LingGame
-{
-    public class LingCompProerties_TimeBomb : CompProperties
-    {
-        public DamageDef DamageDef;
+namespace LingGame;
 
-        public LingCompProerties_TimeBomb()
-        {
-            compClass = typeof(LingComp_TimeBomb);
-        }
+public class LingCompProerties_TimeBomb : CompProperties
+{
+    public DamageDef DamageDef;
+
+    public LingCompProerties_TimeBomb()
+    {
+        compClass = typeof(LingComp_TimeBomb);
     }
 }

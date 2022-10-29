@@ -1,15 +1,14 @@
 using Verse;
 
-namespace LingGame
+namespace LingGame;
+
+public class LingHediff_FuShiZhuangBei : HediffWithComps
 {
-    public class LingHediff_FuShiZhuangBei : HediffWithComps
+    public override void PostTick()
     {
-        public override void PostTick()
-        {
-            base.PostTick();
-            pawn.apparel.DropAll(pawn.Position);
-            pawn.equipment.DropAllEquipment(pawn.Position);
-            pawn.health.RemoveHediff(this);
-        }
+        base.PostTick();
+        pawn.apparel.DropAll(pawn.Position);
+        pawn.equipment.DropAllEquipment(pawn.Position);
+        pawn.health.RemoveHediff(this);
     }
 }

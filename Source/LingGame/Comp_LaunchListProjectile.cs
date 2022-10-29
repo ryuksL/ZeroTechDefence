@@ -1,9 +1,8 @@
 using Verse;
 
-namespace LingGame
+namespace LingGame;
+
+public class Comp_LaunchListProjectile : ThingComp
 {
-    public class Comp_LaunchListProjectile : ThingComp
-    {
-        public CompProperties_LaunchListProjectile Props => (CompProperties_LaunchListProjectile)props;
-    }
+    public CompProperties_LaunchListProjectile Props => (CompProperties_LaunchListProjectile)props;
 }

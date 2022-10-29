@@ -1,51 +1,50 @@
 using RimWorld;
 using Verse;
 
-namespace LingGame
+namespace LingGame;
+
+public class ElectronicWall : Building
 {
-    public class ElectronicWall : Building
+    private float ExPower;
+
+    public CompPowerTrader CCompPowerTrader => GetComp<CompPowerTrader>();
+
+    public override void ExposeData()
     {
-        private float ExPower;
+        base.ExposeData();
+        Scribe_Values.Look(ref ExPower, "ExPower");
+    }
 
-        public CompPowerTrader CCompPowerTrader => GetComp<CompPowerTrader>();
-
-        public override void ExposeData()
+    public override void PreApplyDamage(ref DamageInfo dinfo, out bool absorbed)
+    {
+        if (GetComp<CompPowerTrader>().PowerOn)
         {
-            base.ExposeData();
-            Scribe_Values.Look(ref ExPower, "ExPower");
+            ExPower -= dinfo.Amount;
+            CCompPowerTrader.PowerOutput = CCompPowerTrader.Props.PowerConsumption + ExPower;
+            if (ExPower <= -10000f)
+            {
+                ExPower = -10000f;
+            }
+
+            absorbed = true;
         }
-
-        public override void PreApplyDamage(ref DamageInfo dinfo, out bool absorbed)
+        else
         {
-            if (GetComp<CompPowerTrader>().PowerOn)
-            {
-                ExPower -= dinfo.Amount;
-                CCompPowerTrader.PowerOutput = CCompPowerTrader.Props.basePowerConsumption + ExPower;
-                if (ExPower <= -10000f)
-                {
-                    ExPower = -10000f;
-                }
-
-                absorbed = true;
-            }
-            else
-            {
-                base.PreApplyDamage(ref dinfo, out absorbed);
-            }
+            base.PreApplyDamage(ref dinfo, out absorbed);
         }
+    }
 
-        public override void TickRare()
+    public override void TickRare()
+    {
+        base.TickRare();
+        if (GetComp<CompPowerTrader>().PowerOn)
         {
-            base.TickRare();
-            if (GetComp<CompPowerTrader>().PowerOn)
-            {
-                HitPoints = MaxHitPoints;
-                ExPower = (int)(ExPower * 0.9f);
-            }
-            else if (HitPoints > MaxHitPoints / 9)
-            {
-                HitPoints -= MaxHitPoints / 10;
-            }
+            HitPoints = MaxHitPoints;
+            ExPower = (int)(ExPower * 0.9f);
+        }
+        else if (HitPoints > MaxHitPoints / 9)
+        {
+            HitPoints -= MaxHitPoints / 10;
         }
     }
 }
