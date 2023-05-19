@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 双屏障 -->
+  <LingSandbagA.label>Disintegration barriers</LingSandbagA.label>
+  <LingSandbagA.description>A special barrier that creatures can pass through, but will intercept bullets and blast waves (ineffective against air-thrown bullets).</LingSandbagA.description>
+  <LingSandbagA_Blueprint.label>Disintegration barriers (blueprint)</LingSandbagA_Blueprint.label>
+  <LingSandbagA_Frame.label>Disintegration barriers (Under construction)</LingSandbagA_Frame.label>
+  <LingSandbagA_Frame.description>A special barrier that creatures can pass through, but will intercept bullets and blast waves (ineffective against air-thrown bullets).</LingSandbagA_Frame.description>
+  <LingSandbagB.label>Cellular barrier</LingSandbagB.label>
+  <LingSandbagB.description>A special barrier that can block creatures but not blast waves and flying objects, plus it does not provide any cover effects.</LingSandbagB.description>
+  <LingSandbagB_Blueprint.label>Cellular barrier (blueprint)</LingSandbagB_Blueprint.label>
+  <LingSandbagB_Frame.label>Cellular barrier (Under construction)</LingSandbagB_Frame.label>
+  <LingSandbagB_Frame.description>A special barrier that can block creatures but not blast waves and flying objects, plus it does not provide any cover effects.</LingSandbagB_Frame.description>
+  <!-- 小炮塔 -->
+  <LingTurret_Fire.label>flamethrower</LingTurret_Fire.label>
+  <LingTurret_Fire.description>An unmanned turret equipped with a flame launcher, the bullets will form a sea of fire in its path, and its hit rate is no longer important due to its great range of attack</LingTurret_Fire.description>
+  <Bullet_LingTurret_Fire.label>Petrol bombs</Bullet_LingTurret_Fire.label>
+  <Gun_LingTurret_Fire.label>flamethrower</Gun_LingTurret_Fire.label>
+  <Gun_LingTurret_Fire.description>A flamethrower.</Gun_LingTurret_Fire.description>
+  <LingTurret_Ice.label>Frost blaster</LingTurret_Ice.label>
+  <LingTurret_Ice.description>A drone gun equipped with a liquid nitrogen cannon, which fires liquid nitrogen shells capable of generating a secondary explosion</LingTurret_Ice.description>
+  <Bullet_LingTurret_Ice.label>Ice gas bombs</Bullet_LingTurret_Ice.label>
+  <Gun_LingTurret_Ice.label>Frost blaster</Gun_LingTurret_Ice.label>
+  <Gun_LingTurret_Ice.description>Frost blaster.</Gun_LingTurret_Ice.description>
+  <Building_LingTurretIce.label>icicle</Building_LingTurretIce.label>
+  <Building_LingTurretIce.description>A nice icicle, but not necessarily for those who are trapped.</Building_LingTurretIce.description>
+  <LingTurret_Wind.label>Wind pressure maker</LingTurret_Wind.label>
+  <LingTurret_Wind.description>A reactor for the targeted creation of wind pressure can limit the movement of an enemy and requires biological control</LingTurret_Wind.description>
+  <Gun_LingTurret_Wind.label>Wind pressure maker</Gun_LingTurret_Wind.label>
+  <Gun_LingTurret_Wind.description>A wind pressure maker.</Gun_LingTurret_Wind.description>
+  <LingTurret_Lightning.label>Arc maker</LingTurret_Lightning.label>
+  <LingTurret_Lightning.description>A generator that can release powerful electrodes to trigger lightning strikes</LingTurret_Lightning.description>
+  <Gun_LingTurret_Lightning.label>Arc maker</Gun_LingTurret_Lightning.label>
+  <Gun_LingTurret_Lightning.description>An arc maker.</Gun_LingTurret_Lightning.description>
+  <LingTurret_Toxic.label>Acid injectors</LingTurret_Toxic.label>
+  <LingTurret_Toxic.description>A drone gun that fires neurotoxins and drops enemy equipment when hit</LingTurret_Toxic.description>
+  <Bullet_LingTurret_Toxic.label>Acid bombs</Bullet_LingTurret_Toxic.label>
+  <Gun_LingTurret_Toxic.label>Acid injectors</Gun_LingTurret_Toxic.label>
+  <Gun_LingTurret_Toxic.description>An acid injector.</Gun_LingTurret_Toxic.description>
+  <LingTurret_Poison.label>Venom jet</LingTurret_Poison.label>
+  <LingTurret_Poison.description>A drone gun that fires corrosive toxins that will cause continuous damage to those hit</LingTurret_Poison.description>
+  <Bullet_LingTurret_Poison.label>Venom bombs</Bullet_LingTurret_Poison.label>
+  <Gun_LingTurret_Poison.label>Venom jet</Gun_LingTurret_Poison.label>
+  <Gun_LingTurret_Poison.description>A venom jet.</Gun_LingTurret_Poison.description>
+  <!-- 大炮塔 -->
+  <LingTurret_Crystal.label>Prismatic turret</LingTurret_Crystal.label>
+  <LingTurret_Crystal.description>A turret that fires a large number of broken prismatic crystals, which causes the enemy to lose blood and go into shock at high speed.</LingTurret_Crystal.description>
+  <Bullet_LingTurret_Crystal.label>Broken prismatic crystals</Bullet_LingTurret_Crystal.label>
+  <Gun_LingTurret_Crystal.label>Prismatic injector</Gun_LingTurret_Crystal.label>
+  <Gun_LingTurret_Crystal.description>A prismatic injector.</Gun_LingTurret_Crystal.description>
+  <LingTurret_Power.label>Charged mortar</LingTurret_Power.label>
+  <LingTurret_Power.description>A heavy energy weapon that takes a long time to recharge, will alternately release charge and high explosive shells against the enemy, in order to increase the speed of fire without limit, the accuracy is somewhat reduced</LingTurret_Power.description>
+  <Gun_LingTurret_Power.label>Rechargeable mortar</Gun_LingTurret_Power.label>
+  <Gun_LingTurret_Power.description>A rechargeable mortar.</Gun_LingTurret_Power.description>
+  <Bullet_LingTurret_Power.label>Deterrent shells</Bullet_LingTurret_Power.label>
+  <Bullet_LingTurret_PowerI.label>Pulse shells</Bullet_LingTurret_PowerI.label>
+  <Bullet_LingTurret_PowerII.label>High-explosive shells</Bullet_LingTurret_PowerII.label>
+  <LingTurretCore.label>Turret core</LingTurretCore.label>
+  <LingTurretCore.description>Turret core,Provides protection for the surrounding Zero turrets.</LingTurretCore.description>
+  <!-- <ThingDef ParentName="LingBaseMortar">
+    <defName>LingTurret_SmokeMortar</defName>
+    <label>烟雾弹迫击炮</label>
+    <description>可以发射各式各样的奇妙迫击炮.(效果未实装)</description>
+    <designationCategory>Security</designationCategory>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>3600</WorkToBuild>
+      <Mass>30</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Security/TurretMortar_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<costStuffCount>50</costStuffCount>
+    <costList>
+	  <Steel>120</Steel>
+	  <ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+    <building>
+      <turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+	  <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <turretGunDef>Artillery_SmokeMortar</turretGunDef>
+      <turretTopGraphicPath>Things/Building/Security/TurretMortar_Top</turretTopGraphicPath>
+    </building>
+	<uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+	<uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Artillery_SmokeMortar</defName>
+    <label>mortar</label>
+    <description>Mortar launcher.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Shell_Firefoam</li>
+            <li>Shell_AntigrainWarhead</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>4.0</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>19.9</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef> -->
+  <LingTurret_CrazyMortar.label>Zero mortar</LingTurret_CrazyMortar.label>
+  <LingTurret_CrazyMortar.description>Zero mortar.</LingTurret_CrazyMortar.description>
+  <Artillery_CrazyMortar.label>mortar</Artillery_CrazyMortar.label>
+  <Artillery_CrazyMortar.description>Mortar launcher.</Artillery_CrazyMortar.description>
+  <!--<LingTurret_Fire_Blueprint.label>flamethrower (blueprint)</LingTurret_Fire_Blueprint.label>-->
+  <!--<LingTurret_Fire_Blueprint_Install.label>flamethrower (blueprint)</LingTurret_Fire_Blueprint_Install.label>-->
+  <!--<LingTurret_Fire_Frame.label>flamethrower (Under construction)</LingTurret_Fire_Frame.label>-->
+  <!--<LingTurret_Fire_Frame.description>An unmanned turret equipped with a flame launcher, where the bullet forms a sea of fire, and due to its great attack range, its hit rate is no longer important</LingTurret_Fire_Frame.description>-->
+  <!--<LingTurret_Ice_Blueprint.label>Frost blaster (blueprint)</LingTurret_Ice_Blueprint.label>-->
+  <!--<LingTurret_Ice_Blueprint_Install.label>Frost blaster (blueprint)</LingTurret_Ice_Blueprint_Install.label>-->
+  <!--<LingTurret_Ice_Frame.label>Frost blaster (Under construction)</LingTurret_Ice_Frame.label>-->
+  <!--<LingTurret_Ice_Frame.description>A drone gun equipped with a liquid nitrogen cannon fires liquid nitrogen shells capable of producing a secondary explosion</LingTurret_Ice_Frame.description>-->
+  <!--<LingTurret_Wind_Blueprint.label>Wind pressure maker (blueprint)</LingTurret_Wind_Blueprint.label>-->
+  <!--<LingTurret_Wind_Blueprint_Install.label>Wind pressure maker (blueprint)</LingTurret_Wind_Blueprint_Install.label>-->
+  <!--<LingTurret_Wind_Frame.label>Wind pressure maker (Under construction)</LingTurret_Wind_Frame.label>-->
+  <!--<LingTurret_Wind_Frame.description>A reactor for the targeted creation of wind pressure can limit the movement of an enemy and requires biological control</LingTurret_Wind_Frame.description>-->
+  <!--<LingTurret_Lightning_Blueprint.label>Arc maker (blueprint)</LingTurret_Lightning_Blueprint.label>-->
+  <!--<LingTurret_Lightning_Blueprint_Install.label>Arc maker (blueprint)</LingTurret_Lightning_Blueprint_Install.label>-->
+  <!--<LingTurret_Lightning_Frame.label>Arc maker (Under construction)</LingTurret_Lightning_Frame.label>-->
+  <!--<LingTurret_Lightning_Frame.description>A generator that can release powerful electrodes to trigger lightning strikes</LingTurret_Lightning_Frame.description>-->
+  <!--<LingTurret_Toxic_Blueprint.label>Acid injectors (blueprint)</LingTurret_Toxic_Blueprint.label>-->
+  <!--<LingTurret_Toxic_Blueprint_Install.label>Acid injectors (blueprint)</LingTurret_Toxic_Blueprint_Install.label>-->
+  <!--<LingTurret_Toxic_Frame.label>Acid injectors (Under construction)</LingTurret_Toxic_Frame.label>-->
+  <!--<LingTurret_Toxic_Frame.description>A drone gun that fires neurotoxins and drops enemy equipment when hit</LingTurret_Toxic_Frame.description>-->
+  <!--<LingTurret_Poison_Blueprint.label>Venom jet (blueprint)</LingTurret_Poison_Blueprint.label>-->
+  <!--<LingTurret_Poison_Blueprint_Install.label>Venom jet (blueprint)</LingTurret_Poison_Blueprint_Install.label>-->
+  <!--<LingTurret_Poison_Frame.label>Venom jet (Under construction)</LingTurret_Poison_Frame.label>-->
+  <!--<LingTurret_Poison_Frame.description>A drone gun that fires corrosive toxins that will cause continuous damage to those hit</LingTurret_Poison_Frame.description>-->
+  <!--<LingTurret_Crystal_Blueprint.label>Prismatic turret (blueprint)</LingTurret_Crystal_Blueprint.label>-->
+  <!--<LingTurret_Crystal_Blueprint_Install.label>Prismatic turret (blueprint)</LingTurret_Crystal_Blueprint_Install.label>-->
+  <!--<LingTurret_Crystal_Frame.label>Prismatic turret (Under construction)</LingTurret_Crystal_Frame.label>-->
+  <!--<LingTurret_Crystal_Frame.description>Firing a large number of turrets with broken prisms will cause the enemy to lose blood and shock at high speed</LingTurret_Crystal_Frame.description>-->
+  <!--<LingTurret_Power_Blueprint.label>Charged mortar (blueprint)</LingTurret_Power_Blueprint.label>-->
+  <!--<LingTurret_Power_Blueprint_Install.label>Charged mortar (blueprint)</LingTurret_Power_Blueprint_Install.label>-->
+  <!--<LingTurret_Power_Frame.label>Charged mortar (Under construction)</LingTurret_Power_Frame.label>-->
+  <!--<LingTurret_Power_Frame.description>A heavy energy weapon that requires a long time to recharge, it will alternately release charge shells and high-explosive shells to strike at the enemy, due to the unlimited increase in the rate of fire, the accuracy has a certain decrease</LingTurret_Power_Frame.description>-->
+  <!--<LingTurretCore_Blueprint.label>Turret core (blueprint)</LingTurretCore_Blueprint.label>-->
+  <!--<LingTurretCore_Blueprint_Install.label>Turret core (blueprint)</LingTurretCore_Blueprint_Install.label>-->
+  <!--<LingTurretCore_Frame.label>Turret core (Under construction)</LingTurretCore_Frame.label>-->
+  <!--<LingTurretCore_Frame.description>Turret core, which provides protection for the surrounding Zero sub-turrets.</LingTurretCore_Frame.description>-->
+  <!--<LingTurret_CrazyMortar_Blueprint_Install.label>Zero mortar (blueprint)</LingTurret_CrazyMortar_Blueprint_Install.label>-->
+  <!--<建造中_LingTurretIce.label>icicle</建造中_LingTurretIce.label>-->
+  <!--<建造中_LingTurretIce.description>A nice icicle, but not necessarily for those who are trapped.</建造中_LingTurretIce.description>-->
+  <!-- <ThingDef ParentName="LingBaseMortar">
+    <defName>LingTurret_SmokeMortar</defName>
+    <label>烟雾弹迫击炮</label>
+    <description>可以发射各式各样的奇妙迫击炮.(效果未实装)</description>
+    <designationCategory>Security</designationCategory>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>3600</WorkToBuild>
+      <Mass>30</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>Things/建造中/Security/TurretMortar_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<costStuffCount>50</costStuffCount>
+    <costList>
+	  <Steel>120</Steel>
+	  <ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+    <建造中>
+      <turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+	  <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <turretGunDef>Artillery_SmokeMortar</turretGunDef>
+      <turretTopGraphicPath>Things/建造中/Security/TurretMortar_Top</turretTopGraphicPath>
+    </建造中>
+	<uiIconPath>Things/建造中/Security/TurretMortar_MenuIcon</uiIconPath>
+	<uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Artillery_SmokeMortar</defName>
+    <label>mortar</label>
+    <description>Mortar launcher.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <建造中>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>MortarShells</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Shell_Firefoam</li>
+            <li>Shell_AntigrainWarhead</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </建造中>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>4.0</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>19.9</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef> -->
+  <!--<LingTurret_Fire.comps.CompRefuelable.fuelLabel>剩余燃料量</LingTurret_Fire.comps.CompRefuelable.fuelLabel>-->
+  <!--<LingTurret_Fire.comps.CompRefuelable.fuelGizmoLabel>燃料余量</LingTurret_Fire.comps.CompRefuelable.fuelGizmoLabel>-->
+  <!--<LingTurret_Fire.comps.CompRefuelable.outOfFuelMessage>燃料不足</LingTurret_Fire.comps.CompRefuelable.outOfFuelMessage>-->
+  <!--<LingTurret_Toxic.comps.CompRefuelable.fuelLabel>剩余弹药量</LingTurret_Toxic.comps.CompRefuelable.fuelLabel>-->
+  <!--<LingTurret_Toxic.comps.CompRefuelable.fuelGizmoLabel>弹药余量</LingTurret_Toxic.comps.CompRefuelable.fuelGizmoLabel>-->
+  <!--<LingTurret_Toxic.comps.CompRefuelable.outOfFuelMessage>弹药不足</LingTurret_Toxic.comps.CompRefuelable.outOfFuelMessage>-->
+  <!--<LingTurret_Crystal.comps.CompRefuelable.fuelLabel>剩余弹药量</LingTurret_Crystal.comps.CompRefuelable.fuelLabel>-->
+  <!--<LingTurret_Crystal.comps.CompRefuelable.fuelGizmoLabel>弹药余量</LingTurret_Crystal.comps.CompRefuelable.fuelGizmoLabel>-->
+  <!--<LingTurret_Crystal.comps.CompRefuelable.outOfFuelMessage>弹药不足</LingTurret_Crystal.comps.CompRefuelable.outOfFuelMessage>-->
+</LanguageData>

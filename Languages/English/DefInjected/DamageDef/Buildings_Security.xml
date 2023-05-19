@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 小炮塔 -->
+  <LingFrostbite.label>frostbite</LingFrostbite.label>
+  <LingFrostbite.deathMessage>{0}Frozen to death.</LingFrostbite.deathMessage>
+  <Damage_LingTurret_Toxic.label>bullet</Damage_LingTurret_Toxic.label>
+  <Damage_LingTurret_Toxic.deathMessage>{0}Shot to death.</Damage_LingTurret_Toxic.deathMessage>
+  <Damage_LingTurret_Poison.label>bullet</Damage_LingTurret_Poison.label>
+  <Damage_LingTurret_Poison.deathMessage>{0}Shot to death.</Damage_LingTurret_Poison.deathMessage>
+  <!-- 大炮塔 -->
+  <Damage_LingTurret_Crystal.label>bullet</Damage_LingTurret_Crystal.label>
+  <Damage_LingTurret_Crystal.deathMessage>{0}Pierced to death.</Damage_LingTurret_Crystal.deathMessage>
+</LanguageData>

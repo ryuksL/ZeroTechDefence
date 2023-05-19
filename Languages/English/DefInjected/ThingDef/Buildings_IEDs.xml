@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shell_LingGas_ToxicBuildup.label>Poisonous fog shells</Shell_LingGas_ToxicBuildup.label>
+  <Shell_LingGas_ToxicBuildup.description>A bomb carrying a highly concentrated poison that can create a large cloud of poison when triggered, poisoning any high-speed creature within range.</Shell_LingGas_ToxicBuildup.description>
+  <Bullet_LingGas_ToxicBuildup.label>Poisonous fog shells</Bullet_LingGas_ToxicBuildup.label>
+  <LingGas_ToxicBuildup.label>Concentrated poisonous smoke</LingGas_ToxicBuildup.label>
+  <LingTrapIED_HighStun.label>Electrostatic bombs</LingTrapIED_HighStun.label>
+  <LingTrapIED_HighStun.description>A deployment bomb that emits electrostatic waves that can temporarily disable creatures within range and disable appliances.</LingTrapIED_HighStun.description>
+  <LingTrapIED_Toxic.label>Poison fog bomb</LingTrapIED_Toxic.label>
+  <LingTrapIED_Toxic.description>A bomb carrying a highly concentrated poison can create a large cloud of poison after triggering, poisoning any high-speed creature within range.</LingTrapIED_Toxic.description>
+  <!--<LingTrapIED_HighStun_Blueprint.label>Electrostatic bombs (blueprint)</LingTrapIED_HighStun_Blueprint.label>-->
+  <!--<LingTrapIED_HighStun_Blueprint_Install.label>Electrostatic bombs (blueprint)</LingTrapIED_HighStun_Blueprint_Install.label>-->
+  <!--<LingTrapIED_HighStun_Frame.label>Electrostatic bombs (Under construction)</LingTrapIED_HighStun_Frame.label>-->
+  <!--<LingTrapIED_HighStun_Frame.description>A deployment bomb that can release electrostatic waves can temporarily disable creatures within range and disable appliances.</LingTrapIED_HighStun_Frame.description>-->
+  <!--<LingTrapIED_Toxic_Blueprint.label>Poison fog bombs (blueprint)</LingTrapIED_Toxic_Blueprint.label>-->
+  <!--<LingTrapIED_Toxic_Blueprint_Install.label>Poison fog bomb (blueprint)</LingTrapIED_Toxic_Blueprint_Install.label>-->
+  <!--<LingTrapIED_Toxic_Frame.label>Poison fog bomb (Under construction)</LingTrapIED_Toxic_Frame.label>-->
+  <!--<LingTrapIED_Toxic_Frame.description>A bomb carrying a highly concentrated poison can create a large cloud of poison after triggering, poisoning any high-speed creature within range.</LingTrapIED_Toxic_Frame.description>-->
+  <!--[Duplicated] <LingGas_ToxicBuildup.label>Concentrated toxic smoke</LingGas_ToxicBuildup.label>-->
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 小炮塔 -->
+  <Hediff_LingTurret_Toxic.label>Acid Erosion</Hediff_LingTurret_Toxic.label>
+  <Hediff_LingTurret_Toxic.description>Debug.Text.</Hediff_LingTurret_Toxic.description>
+  <Hediff_LingTurret_Poison.label>Rotten Poision</Hediff_LingTurret_Poison.label>
+  <Hediff_LingTurret_Poison.description>If the poisoned person is standing, they will be constantly burned.</Hediff_LingTurret_Poison.description>
+  <!-- 大炮塔 -->
+  <Hediff_LingTurret_Crystal.label>Stab wounds</Hediff_LingTurret_Crystal.label>
+  <Hediff_LingTurret_Crystal.description>A stab wound</Hediff_LingTurret_Crystal.description>
+  <Hediff_LingTurret_Crystal.comps.0.labelTendedWell>Bandaged</Hediff_LingTurret_Crystal.comps.0.labelTendedWell>
+  <Hediff_LingTurret_Crystal.comps.0.labelTendedWellInner>Fixed</Hediff_LingTurret_Crystal.comps.0.labelTendedWellInner>
+  <Hediff_LingTurret_Crystal.comps.0.labelSolidTendedWell>Treated</Hediff_LingTurret_Crystal.comps.0.labelSolidTendedWell>
+  <Hediff_LingTurret_Crystal.injuryProps.destroyedLabel>Cut off</Hediff_LingTurret_Crystal.injuryProps.destroyedLabel>
+  <Hediff_LingTurret_Crystal.injuryProps.destroyedOutLabel>Amputate</Hediff_LingTurret_Crystal.injuryProps.destroyedOutLabel>
+  <Hediff_LingTurret_Crystal.labelNoun>Stabbing wounds</Hediff_LingTurret_Crystal.labelNoun>
+</LanguageData>
